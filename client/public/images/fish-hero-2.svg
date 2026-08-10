@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d3b2d"/>
+      <stop offset="100%" stop-color="#102d21"/>
+    </linearGradient>
+    <linearGradient id="tank" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0ea370"/>
+      <stop offset="100%" stop-color="#3bd49c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="700" fill="url(#bg2)"/>
+  <rect x="60" y="90" width="660" height="430" rx="24" fill="url(#tank)" opacity="0.5"/>
+  <g transform="translate(170 120)">
+    <path d="M220 210 C290 120, 550 110, 610 210 C560 300, 355 335, 220 210Z" fill="#ff9d00"/>
+    <path d="M160 205 L70 165 L110 238 Z" fill="#ff7a00"/>
+    <circle cx="440" cy="198" r="16" fill="white"/>
+    <circle cx="445" cy="204" r="7" fill="#191919"/>
+    <path d="M250 160 L185 90 L260 120 Z" fill="#ffc65a"/>
+    <path d="M340 215 L390 115 L440 215 Z" fill="#f5d95c" opacity="0.8"/>
+    <path d="M300 240 L370 350 L250 295 Z" fill="#fc9a27"/>
+    <path d="M145 255 L80 320 L130 290 Z" fill="#ffb54d"/>
+  </g>
+</svg>

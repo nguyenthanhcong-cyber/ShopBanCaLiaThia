@@ -1,0 +1,11 @@
+# Bỏ qua tất cả các thư mục node_modules ở bất kỳ đâu
+node_modules/
+**/node_modules/
+
+# Bỏ qua thư mục build của Frontend
+client/dist/
+dist/
+
+# Bỏ qua các file môi trường chứa thông tin bảo mật
+.env
+*.env
